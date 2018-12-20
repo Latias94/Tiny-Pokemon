@@ -1,0 +1,47 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "a7bce5d8e81c451484ab58105e5798d0",
+    "Name": "Movement",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "536861abe60c4efcb14b3e6f6c8bc7a2",
+        "Name": "speed",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "1aeb66e2eefe4d1095612eb6d4db77e9",
+        "Name": "direction",
+        "FieldType": { "Id": "319d712d256540fd8b08c2c7b3720f67", "Name": "MoveDirection" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "342efa79606b4f65bfca326ad4c36565",
+        "Name": "lastDirection",
+        "FieldType": { "Id": "319d712d256540fd8b08c2c7b3720f67", "Name": "MoveDirection" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "a7bce5d8e81c451484ab58105e5798d0", "Name": "Movement" },
+        "Properties": {
+            "direction": {
+                "$TypeId": 8,
+                "Type": { "Id": "319d712d256540fd8b08c2c7b3720f67", "Name": "MoveDirection" },
+                "Id": "3c92139f17674643b738bff402e2b0b0",
+                "Name": "idle",
+                "Value": 4
+            },
+            "lastDirection": {
+                "$TypeId": 8,
+                "Type": { "Id": "319d712d256540fd8b08c2c7b3720f67", "Name": "MoveDirection" },
+                "Id": "3c92139f17674643b738bff402e2b0b0",
+                "Name": "idle",
+                "Value": 4
+            }
+        }
+    }
+}]

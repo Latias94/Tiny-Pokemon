@@ -1,0 +1,68 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "AnimSystem",
+            "QualifiedName": "game.AnimSystem",
+            "Description": "",
+            "Source": {
+                "File": "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Assets/Scripts/AnimSystem.ts",
+                "Line": 3,
+                "Character": 17
+            }
+        },
+        {
+            "Name": "MovementSystem",
+            "QualifiedName": "game.MovementSystem",
+            "Description": "New System",
+            "Source": {
+                "File": "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Assets/Scripts/MovementSystem.ts",
+                "Line": 4,
+                "Character": 17
+            }
+        }
+    ],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 179,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 218,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 786,
+            "Steps": 11
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 42,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 3,
+            "Steps": 2
+        }
+    ],
+    "SourceFiles": [
+        "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Assets/Scripts/AnimSystem.ts",
+        "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Assets/Scripts/MovementSystem.ts",
+        "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Library/PackageCache/com.unity.tiny@0.13.4-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "C:/Users/narut/Documents/Unity Project/Tiny Pokemon/Library/PackageCache/com.unity.tiny@0.13.4-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "a19306afd96109d1326c3da3a0c4c31e",
+    "GeneratedAt": "Thu Dec 20 2018 22:37:02 GMT+0800 (中国标准时间)"
+}

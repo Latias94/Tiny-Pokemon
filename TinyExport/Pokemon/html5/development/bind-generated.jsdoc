@@ -1,0 +1,386 @@
+/**
+
+@struct
+@memberof game
+@name MoveDirection
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.MoveDirection
+@name up
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.MoveDirection
+@name down
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.MoveDirection
+@name left
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.MoveDirection
+@name right
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.MoveDirection
+@name idle
+*/
+/**
+
+@component
+@memberof entities.game.Bootstrap
+@name Component
+*/
+/**
+
+@component
+@memberof game
+@name Movement
+*/
+/**
+
+@member {float}
+@memberof game.Movement
+@name speed
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.Movement
+@name direction
+*/
+/**
+
+@member {game.MoveDirection}
+@memberof game.Movement
+@name lastDirection
+*/
+/**
+
+@component
+@memberof game
+@name PlayerTag
+*/
+/**
+
+@component
+@memberof game
+@name WalkSprite
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_down_0
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_down_1
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_down_2
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_up_0
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_up_1
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_up_2
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_left_0
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_left_1
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_left_2
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_right_0
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_right_1
+*/
+/**
+
+@member {ut.Entity}
+@memberof game.WalkSprite
+@name walk_right_2
+*/
+/**
+
+@component
+@memberof ut.Core2D.layers
+@name Default
+*/
+/**
+
+@component
+@memberof ut.Core2D.layers
+@name TransparentFX
+*/
+/**
+
+@component
+@memberof ut.Core2D.layers
+@name IgnoreRaycast
+*/
+/**
+
+@component
+@memberof ut.Core2D.layers
+@name Water
+*/
+/**
+
+@component
+@memberof ut.Core2D.layers
+@name UI
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceAnimationClip
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceAnimationClip
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceAnimationClip
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceAnimationClip
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceAudioClip
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceAudioClip
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceAudioClip
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceAudioClip
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceSprite
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceSprite
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceSprite
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceSprite
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceSpriteAtlas
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceSpriteAtlas
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceSpriteAtlas
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceSpriteAtlas
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceTexture2D
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceTexture2D
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceTexture2D
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceTexture2D
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceTile
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceTile
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceTile
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceTile
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name AssetReferenceTMP_FontAsset
+*/
+/**
+
+@member {string}
+@memberof ut.EditorExtensions.AssetReferenceTMP_FontAsset
+@name guid
+*/
+/**
+
+@member {int64}
+@memberof ut.EditorExtensions.AssetReferenceTMP_FontAsset
+@name fileId
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.AssetReferenceTMP_FontAsset
+@name type
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name CameraCullingMask
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.CameraCullingMask
+@name mask
+*/
+/**
+
+@component
+@memberof ut.EditorExtensions
+@name EntityLayer
+*/
+/**
+
+@member {int32}
+@memberof ut.EditorExtensions.EntityLayer
+@name layer
+*/
+/**
+
+@system
+@memberof game
+@name AnimSystemJS
+*/
+/**
+
+@system
+@memberof game
+@name MovementSystemJS
+*/
+
+

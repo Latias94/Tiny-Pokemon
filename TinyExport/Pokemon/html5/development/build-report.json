@@ -1,0 +1,115 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/Pokemon/html5/development/bin/runtime.js",
+                "Size": 6196610,
+                "CompressedSize": 784949
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 47337,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/Spritesheets/Outside/General.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "fe3b1e453b9d88047b7d779f8a2ba8c1", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/General.png",
+                    "Size": 251204,
+                    "CompressedSize": 174903,
+                    "Object": { "$TypeId": 10, "Guid": "fe3b1e453b9d88047b7d779f8a2ba8c1", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/Spritesheets/Character/Char.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/Char.png",
+                    "Size": 83040,
+                    "CompressedSize": 49262,
+                    "Object": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/Pokemon/html5/development/bin/entities.js",
+                "Size": 88731,
+                "CompressedSize": 9352
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "Bootstrap",
+                    "Size": 88652,
+                    "CompressedSize": 9256
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/Pokemon/html5/development/bin/bindings.js",
+                "Size": 89741,
+                "CompressedSize": 7549
+            }
+        }, {
+            "Item": {
+                "Name": "Linked Code Files",
+                "Size": 0,
+                "CompressedSize": 0
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "C:\\Users\\narut\\Documents\\Unity Project\\Tiny Pokemon\\TinyExport\\Pokemon\\html5\\development\\ScriptAssemblies\\tsc-emit.js",
+                    "Size": 8538,
+                    "CompressedSize": 1858
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/Pokemon/html5/development/bin/main.js",
+                "Size": 2765,
+                "CompressedSize": 888
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/Pokemon/html5/development/bin/wsclient.js",
+                "Size": 9651,
+                "CompressedSize": 2635
+            }
+        }]
+    }]
+}

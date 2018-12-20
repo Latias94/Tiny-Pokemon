@@ -1,0 +1,50 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "319d712d256540fd8b08c2c7b3720f67",
+    "Name": "MoveDirection",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "4e92bc4f559845d1a03641a65779e4bc",
+        "Name": "up",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "dd8726f315d44567b6e769bc39191f39",
+        "Name": "down",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9785f9637f6b427884b9e773420a9ef1",
+        "Name": "left",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "8bde94fe1bae40b4a119352c496fbee2",
+        "Name": "right",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "3c92139f17674643b738bff402e2b0b0",
+        "Name": "idle",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "319d712d256540fd8b08c2c7b3720f67", "Name": "MoveDirection" },
+        "Properties": {
+            "down": 1,
+            "left": 2,
+            "right": 3,
+            "idle": 4
+        }
+    }
+}]

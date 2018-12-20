@@ -1,0 +1,99 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "e86a6f8c0c3f4f07955452a551aa79d0",
+    "Name": "WalkSprite",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "ffe7bfbd42554c8487ab599f92260cf4",
+        "Name": "walk_down_0",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "53fdec2d4ad6489f8b434737ecf31541",
+        "Name": "walk_down_1",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "cca8d60a334a4b6ba9b3ef7e9f1dd46a",
+        "Name": "walk_down_2",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d54569cc604447e68ea9ac74396f8a9c",
+        "Name": "walk_up_0",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "452f6d2bf1234dd091679255bfcf5594",
+        "Name": "walk_up_1",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "30e2d2abc79e46778b8b33a05e333377",
+        "Name": "walk_up_2",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0438abddcbaa4a62a859165b20107496",
+        "Name": "walk_left_0",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "42b15a475db446f2af1a4cf0a9b78db6",
+        "Name": "walk_left_1",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "b902dc5c77e045f1a50407ed63dc8e8f",
+        "Name": "walk_left_2",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "63e823dfcf4d403ea09ac7bfcce61b16",
+        "Name": "walk_right_0",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "fe1e749cc46c47bf8b11546fa063864c",
+        "Name": "walk_right_1",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "78205ae8705a49b1aa3704e7ab795937",
+        "Name": "walk_right_2",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "e86a6f8c0c3f4f07955452a551aa79d0", "Name": "WalkSprite" },
+        "Properties": {
+            "walk_down_0": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300034, "Type": 3 },
+            "walk_down_1": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300036, "Type": 3 },
+            "walk_down_2": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300038, "Type": 3 },
+            "walk_up_0": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300000, "Type": 3 },
+            "walk_up_1": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300002, "Type": 3 },
+            "walk_up_2": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300004, "Type": 3 },
+            "walk_left_0": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300064, "Type": 3 },
+            "walk_left_1": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300066, "Type": 3 },
+            "walk_left_2": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300068, "Type": 3 },
+            "walk_right_0": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300096, "Type": 3 },
+            "walk_right_1": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300098, "Type": 3 },
+            "walk_right_2": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 21300100, "Type": 3 }
+        }
+    }
+}]
