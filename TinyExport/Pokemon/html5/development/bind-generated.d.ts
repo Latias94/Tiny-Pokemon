@@ -78,6 +78,18 @@ declare namespace ut {
 }
 declare var UT_ASSETS: Object;
 declare namespace game{
+    class GameConfig extends ut.Component {
+        constructor();
+        state: GameState;
+        static readonly cid: number;
+        static readonly _view: any;
+        static readonly _isSharedComp: boolean;
+        static _size: number;
+        static _fromPtr(p: number, v?: GameConfig): GameConfig;
+        static _toPtr(p: number, v: GameConfig): void;
+        static _tempHeapPtr(v: GameConfig): number;
+        static _dtorFn(v: GameConfig): void;
+    }
     class Movement extends ut.Component {
         constructor();
         speed: number;
@@ -125,6 +137,13 @@ declare namespace game{
         static _toPtr(p: number, v: WalkSprite): void;
         static _tempHeapPtr(v: WalkSprite): number;
         static _dtorFn(v: WalkSprite): void;
+    }
+    enum GameState {
+        Initialize = 0,
+        Menu = 1,
+        Play = 2,
+        Exit = 3,
+        Start = 4,
     }
     enum MoveDirection {
         up = 0,
@@ -271,6 +290,8 @@ declare namespace ut{
         game: {
             [data: string]: EntityGroupData;
             Bootstrap: EntityGroupData;
+            GameScene: EntityGroupData;
+            Start: EntityGroupData;
         }
     }
 }

@@ -1,6 +1,17 @@
 using Unity.Collections.LowLevel.Unsafe;
 namespace game
 {
+    public enum GameState
+    {
+        Initialize = 0,
+        Menu = 1,
+        Play = 2,
+        Exit = 3,
+        Start = 4,
+    }
+}
+namespace game
+{
     public enum MoveDirection
     {
         up = 0,
@@ -11,6 +22,30 @@ namespace game
     }
 }
 namespace entities.game.Bootstrap
+{
+    [global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential)]
+    public struct Component : UTiny.IComponentData
+    {
+
+
+
+
+
+    }
+}
+namespace entities.game.GameScene
+{
+    [global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential)]
+    public struct Component : UTiny.IComponentData
+    {
+
+
+
+
+
+    }
+}
+namespace entities.game.Start
 {
     [global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential)]
     public struct Component : UTiny.IComponentData
@@ -68,6 +103,19 @@ namespace game
         public UTiny.Entity walk_right_0;
         public UTiny.Entity walk_right_1;
         public UTiny.Entity walk_right_2;
+
+
+
+    }
+}
+namespace game
+{
+    [global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Sequential)]
+    public struct GameConfig : UTiny.IComponentData
+    {
+
+
+        public game.GameState state;
 
 
 

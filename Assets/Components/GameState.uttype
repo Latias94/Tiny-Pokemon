@@ -1,0 +1,50 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "28cc8679171d4d49b41ae7f944233504",
+    "Name": "GameState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Enum",
+    "BaseType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+    "Fields": [{
+        "Id": "2eafcb93c9c044f58b69ee163233a411",
+        "Name": "Initialize",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "9c45c30fb1c6413c881c15824edd36ba",
+        "Name": "Menu",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "be86e973db014c7b8d02c7870b270b32",
+        "Name": "Play",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "290ed15f7e0440a5a51d6c63100443b5",
+        "Name": "Exit",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "0a173ca1fa014578a540c31a664f455b",
+        "Name": "Start",
+        "FieldType": { "Id": "9633c95a0a68473682f09ed6a01194b4", "Name": "Int32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "28cc8679171d4d49b41ae7f944233504", "Name": "GameState" },
+        "Properties": {
+            "Menu": 1,
+            "Play": 2,
+            "Exit": 3,
+            "Start": 4
+        }
+    }
+}]

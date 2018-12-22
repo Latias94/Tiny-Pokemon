@@ -45,8 +45,7 @@ namespace game {
                     if (movement.direction == MoveDirection.right) {
                         sequence.sprites = [anim.walk_right_1, anim.walk_right_2];
                     }
-
-
+                    
                     sequencePlayer.paused = movement.direction == game.MoveDirection.idle;
                 })
         }

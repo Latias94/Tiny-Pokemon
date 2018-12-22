@@ -10,6 +10,9 @@ using UTiny.Tilemap2D;
 using UTiny.HitBox2D;
 using UTiny.Physics2D;
 using UTiny.Interpolation;
+using UTiny.Audio;
+using UTiny.Text;
+using UTiny.UILayout;
 
 /*
  * !!! TEMP UNITL PROPER SCENE FORMAT !!!
@@ -17,6 +20,18 @@ using UTiny.Interpolation;
 namespace entities.game
 {
     namespace Bootstrap
+    {
+        public struct Component : IComponentData
+        {
+        }
+    }
+    namespace GameScene
+    {
+        public struct Component : IComponentData
+        {
+        }
+    }
+    namespace Start
     {
         public struct Component : IComponentData
         {
@@ -50,6 +65,14 @@ namespace game
         public Entity walk_right_1;
         public Entity walk_right_2;
     }
+    public enum GameState
+    {
+        Initialize = 0
+        , Menu = 1
+        , Play = 2
+        , Exit = 3
+        , Start = 4
+    }
     public enum MoveDirection
     {
         up = 0
@@ -57,6 +80,11 @@ namespace game
         , left = 2
         , right = 3
         , idle = 4
+    }
+    [Configuration]
+    public struct GameConfig : IComponentData
+    {
+        public game.GameState state;
     }
 }
 
@@ -203,9 +231,33 @@ namespace ut.Physics2D
 namespace ut.Interpolation
 {
 }
+
+namespace ut.Audio
+{
+}
+
+namespace ut.Text
+{
+}
+
+namespace ut.HTML
+{
+}
+
+namespace ut.UILayout
+{
+}
 namespace game
 {
     public class AnimSystemJS : IComponentSystem
+    {
+    }
+}
+namespace game
+{
+    [UpdateBefore(typeof(UTiny.Shared.UserCodeEnd))]
+    [UpdateAfter(typeof(UTiny.Shared.UserCodeStart))]
+    public class GameManagerSystemJS : IComponentSystem
     {
     }
 }

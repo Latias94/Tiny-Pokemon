@@ -26,9 +26,24 @@
         "Children": [{
             "Item": {
                 "Name": "JavaScript",
-                "Size": 47337,
+                "Size": 49908,
                 "CompressedSize": 0
             }
+        }, {
+            "Item": {
+                "Name": "Assets/Sounds/bgm.mp3",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "76d385643aebc2243a2f0671aac835d4", "FileId": 8300000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/bgm.mp3",
+                    "Size": 4027868,
+                    "CompressedSize": 3011833,
+                    "Object": { "$TypeId": 10, "Guid": "76d385643aebc2243a2f0671aac835d4", "FileId": 8300000, "Type": 3 }
+                }
+            }]
         }, {
             "Item": {
                 "Name": "Assets/Spritesheets/Outside/General.png",
@@ -59,6 +74,21 @@
                     "Object": { "$TypeId": 10, "Guid": "8e8a08167341c10409917cca2bdda656", "FileId": 2800000, "Type": 3 }
                 }
             }]
+        }, {
+            "Item": {
+                "Name": "Assets/UI/Pokemon.jpg",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "0078ff8a0e3b17a4fb2e93867c0bb8dc", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/Assets/Pokemon.jpg",
+                    "Size": 16552,
+                    "CompressedSize": 12155,
+                    "Object": { "$TypeId": 10, "Guid": "0078ff8a0e3b17a4fb2e93867c0bb8dc", "FileId": 2800000, "Type": 3 }
+                }
+            }]
         }]
     }, {
         "Item": {
@@ -69,21 +99,33 @@
         "Children": [{
             "Item": {
                 "Name": "TinyExport/Pokemon/html5/development/bin/entities.js",
-                "Size": 88731,
-                "CompressedSize": 9352
+                "Size": 95818,
+                "CompressedSize": 10617
             },
             "Children": [{
                 "Item": {
                     "Name": "Bootstrap",
-                    "Size": 88652,
-                    "CompressedSize": 9256
+                    "Size": 501,
+                    "CompressedSize": 291
+                }
+            }, {
+                "Item": {
+                    "Name": "GameScene",
+                    "Size": 91159,
+                    "CompressedSize": 9699
+                }
+            }, {
+                "Item": {
+                    "Name": "Start",
+                    "Size": 4083,
+                    "CompressedSize": 1068
                 }
             }]
         }, {
             "Item": {
                 "Name": "TinyExport/Pokemon/html5/development/bin/bindings.js",
-                "Size": 89741,
-                "CompressedSize": 7549
+                "Size": 98696,
+                "CompressedSize": 8354
             }
         }, {
             "Item": {
@@ -94,15 +136,15 @@
             "Children": [{
                 "Item": {
                     "Name": "C:\\Users\\narut\\Documents\\Unity Project\\Tiny Pokemon\\TinyExport\\Pokemon\\html5\\development\\ScriptAssemblies\\tsc-emit.js",
-                    "Size": 8538,
-                    "CompressedSize": 1858
+                    "Size": 13443,
+                    "CompressedSize": 2787
                 }
             }]
         }, {
             "Item": {
                 "Name": "TinyExport/Pokemon/html5/development/bin/main.js",
-                "Size": 2765,
-                "CompressedSize": 888
+                "Size": 3581,
+                "CompressedSize": 1027
             }
         }, {
             "Item": {

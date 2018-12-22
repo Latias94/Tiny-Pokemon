@@ -2,6 +2,42 @@
 
 @struct
 @memberof game
+@name GameState
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameState
+@name Initialize
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameState
+@name Menu
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameState
+@name Play
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameState
+@name Exit
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameState
+@name Start
+*/
+/**
+
+@struct
+@memberof game
 @name MoveDirection
 */
 /**
@@ -38,6 +74,18 @@
 
 @component
 @memberof entities.game.Bootstrap
+@name Component
+*/
+/**
+
+@component
+@memberof entities.game.GameScene
+@name Component
+*/
+/**
+
+@component
+@memberof entities.game.Start
 @name Component
 */
 /**
@@ -147,6 +195,18 @@
 @member {ut.Entity}
 @memberof game.WalkSprite
 @name walk_right_2
+*/
+/**
+
+@component
+@memberof game
+@name GameConfig
+*/
+/**
+
+@member {game.GameState}
+@memberof game.GameConfig
+@name state
 */
 /**
 
@@ -375,6 +435,12 @@
 @system
 @memberof game
 @name AnimSystemJS
+*/
+/**
+
+@system
+@memberof game
+@name GameManagerSystemJS
 */
 /**
 

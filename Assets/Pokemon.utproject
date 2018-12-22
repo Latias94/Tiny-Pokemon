@@ -62,7 +62,9 @@
         { "Id": "c4e9aa855db741b390e672916475235d", "Name": "Main" },
         { "Id": "36f73ad23c8a63c53fa510f0621474f5", "Name": "UTiny.HitBox2D" },
         { "Id": "259902b84b3ed0f7213a1b5e37040709", "Name": "UTiny.Physics2D" },
-        { "Id": "fb3737c9a63f1f11bd510d36b765b8ee", "Name": "UTiny.Interpolation" }
+        { "Id": "fb3737c9a63f1f11bd510d36b765b8ee", "Name": "UTiny.Interpolation" },
+        { "Id": "251df5ef6819533f94e1cbf3181f722e", "Name": "UTiny.Audio" },
+        { "Id": "0b0e260844fa6632977aa15579b42291", "Name": "UTiny.Text" }
     ],
     "StartupEntityGroup": { "Id": "379239265170461c9c607a1cf0015ef5", "Name": "NewEntityGroup" }
 },
@@ -82,5 +84,9 @@
         }
     }, {
         "Type": { "Id": "38283a6cef9faa790b5c9936163d59e3", "Name": "Physics2DConfig" }
+    }, {
+        "Type": { "Id": "9eb55b2394de4ce5a6c2c7859be5244d", "Name": "GameConfig" }
+    }, {
+        "Type": { "Id": "e816e7b93a13b9e5ddf993486ca79278", "Name": "AudioConfig" }
     }]
 }]
